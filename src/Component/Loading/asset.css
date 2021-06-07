@@ -1,0 +1,23 @@
+
+.loading-container{
+    position: fixed;
+    top: 0;
+    right:  0;
+    left: 0;
+    bottom: 0;
+    z-index: 10000;
+    display: flex;
+}
+.loading-modal{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.05);
+    z-index: 10001;
+}
+.loading-item{
+    position: relative;
+    margin : auto;
+    overflow: hidden;
+    z-index: 10002;
+}

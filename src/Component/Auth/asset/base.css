@@ -1,0 +1,113 @@
+
+.modal_footer{
+    position: fixed;
+    top : 0;
+    right: 0;
+    left : 0;
+    bottom: 0;
+    display: flex;
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.4);
+}
+.modal__body{
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    z-index: 3;
+    border-radius: 5px;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+.modal__inner{
+
+}
+.form{
+    padding: 0 32px;
+    width: 500px;
+}
+.modal__signin-heading{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 15px;
+}
+.heading__signin{
+
+}
+.heading__signup{
+    font-size: 20px;
+    cursor: pointer;
+}
+.heading__signup:hover{
+    color: sandybrown;
+}
+.modal__signin-body{
+    margin-top: 10px;
+}
+
+.modal__signin-form{
+    margin-top: 15px;
+    
+}
+.form-control{
+    width: 100%;
+    height: 40px;
+    
+}
+.form-control:focus{
+    border-color: #000;
+}
+
+.action{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+   justify-content: flex-end;
+
+}
+.btn-ok{
+    margin-right: 10px;
+}
+.btn-back{
+     
+}
+
+.button{
+    min-width: 100px;
+    background: #ccc;
+    border-radius: 2px;
+    padding: 4px 0;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+}
+
+
+.button:hover{
+    background-color: darkturquoise;
+    color: #fff;
+}
+.button-primary{
+    background-color:coral;
+}
+
+.modal__signin-form__warnning{
+    color: red;
+}
+tr,td,th{
+    border:  solid 1px black;
+}
+table {
+    border-collapse: collapse;
+    width:  100%;
+  
+}
+
+th,td{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+.avatar__circle{
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;   
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+
+
+.avatar__name{
+   margin-left: 20px;
+   position: relative;
+   cursor: pointer;
+   min-width: 150px;
+}
+
+.avatar__list{
+    position: absolute;
+    list-style: none;
+    left:  0;
+    top : 30px;
+    padding : 10px 0;
+    width: 100%;
+    background-color: #000;
+    border-radius: 3px;
+    color: white;
+    transition: all 0.3s linear;
+    display: none;
+
+}
+.avatar__link{
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.avatar__item:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.avatar__name:hover .avatar__list{
+    display: block;
+}
+
+.avatar__name::after{
+    content: "";
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top : 80%;
+}
+.avatar__icon{
+    color: #fff;
+}
